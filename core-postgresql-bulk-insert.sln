@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{D2C3480B-3A51-4C19-BE63-3D6EEF094677}"
+	ProjectSection(SolutionItems) = preProject
+		docker\docker_infrastructure.yml = docker\docker_infrastructure.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8806A9BD-301D-4777-BAC9-EB183148C9AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{A72BB1CB-D91A-4F1D-B9F3-84A3638FD9C9}"
+	ProjectSection(SolutionItems) = preProject
+		CreateProductTable.sql = CreateProductTable.sql
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceBulkInsert", "src\PerformanceBulkInsert\PerformanceBulkInsert.csproj", "{9BD67368-B1AE-4C0C-95B5-D461E40093F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BD67368-B1AE-4C0C-95B5-D461E40093F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD67368-B1AE-4C0C-95B5-D461E40093F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD67368-B1AE-4C0C-95B5-D461E40093F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD67368-B1AE-4C0C-95B5-D461E40093F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BD67368-B1AE-4C0C-95B5-D461E40093F0} = {8806A9BD-301D-4777-BAC9-EB183148C9AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16C26F2E-FAD7-42F2-9121-0841A6BC6907}
+	EndGlobalSection
+EndGlobal
